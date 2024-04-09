@@ -13,6 +13,13 @@ body {
   font-style: normal;
   justify-content: center;
   background-image: conic-gradient(at top right, slategray, white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column img {
+    margin-top: 8px;
+    max-width: 100%;
+    border: 2px ridge goldenrod;
 }
 
 header, footer {
@@ -35,10 +42,16 @@ header img {
  
 header {
     font-size: 250%;
+    border-bottom: 2px ridge goldenrod;
+    display: flex;
+    align-items: center; 
 }
 
 header h2 {
     font-size: 250%;
+    color: whitesmoke;
+    font-size: 300%;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px whitesmoke;
 }
 
 nav {
@@ -77,6 +90,10 @@ nav a:hover {
 
 article
 
+html {
+    background-image: url(../images/logo.png);
+    background-attachment: fixed;
+}
 
 
 #cornerBtn {
